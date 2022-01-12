@@ -1,2 +1,2 @@
 # tindog
-## TinDog themplate made with HTML5, CSS3, and Bootstrap 5
+## TinDog template made with HTML5, CSS3, and Bootstrap 5
