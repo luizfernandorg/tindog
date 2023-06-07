@@ -5,6 +5,11 @@
 body {
     font-family: 'Montserrat', sans-serif;  
 }
+
+.header {
+    height: 100vh;
+}
+
 h1 {
     font-family: 'Montserrat-black', sans-serif;  
     font-size: 3rem;  
@@ -34,11 +39,7 @@ h2 {
     text-align: center;
 }
 #dog_photo {
-    position: relative;
-    top: 6.6vh;
-    transform: rotate(10deg);
-    width: 70%;
-    z-index: 1;
+    display: none;
 }
 .nav-link:hover {
     color: black !important;
@@ -67,7 +68,6 @@ h2 {
 #features {
     padding: 5.5rem 0;
     text-align: center;
-    z-index: 1000;
     position: relative;
     background-color: #fff;
 }
@@ -123,7 +123,7 @@ h2 {
     margin-bottom: 50px;
 }
 .card {
-    margin-right: 15%;
+    /* margin-right: 15%; */
 }
 
 /* cta session */
@@ -162,6 +162,15 @@ h2 {
     #pricing {
         text-align: center;
         padding: 0;
+    }
+}
+@media screen and (min-width: 999px) {
+    #dog_photo {
+        display: inline-block;
+        position: relative;
+        top: 20px;
+        transform: rotate(10deg);
+        height: 70vh;
     }
 }
 @media screen and (max-width: 600px) {
